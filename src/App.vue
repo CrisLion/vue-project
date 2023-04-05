@@ -1,24 +1,17 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import TutorialZone from "@/components/Tutorial.vue";
+import TheHeader from "@/components/Header.vue";
 
-import TutorialCard from "@/components/TutorialCard.vue";
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    <div>
+        <TheHeader />
+        <TutorialZone />
     </div>
-  </header>
 
-  <main>
-    <tutorial-card title="Tutorial 1" img-path="./assets/logo.svg" description="Full Description category"/>
-      <tutorial-card title="Tutorial 2" img-path="./assets/logo.svg" description="Full Description category"/>
-      <tutorial-card title="Tutorial 3" img-path="./assets/logo.svg" description="Full Description category"/>
-      <tutorial-card title="Tutorial 4" img-path="./assets/logo.svg" description="Full Description category"/>
-  </main>
 </template>
 
 <style scoped>
