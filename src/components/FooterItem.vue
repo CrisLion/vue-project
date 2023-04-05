@@ -3,6 +3,7 @@
       <img alt="FooterItemLogo" src="" width="125" height="125" />
       <p>{{info}}</p>
   </div>
+
 </template>
 
 <script setup>

@@ -2,17 +2,18 @@
 import TutorialZone from "@/components/Tutorial.vue";
 import TheHeader from "@/components/Header.vue";
 import TheFooter from "@/components/Footer.vue";
+import SidebarZone from "./components/SidebarZone.vue";
 
 
 </script>
 
 <template>
-
-    <div>
-        <TheHeader />
-        <TutorialZone />
-        <TheFooter />
-    </div>
+    <SidebarZone />
+        <div>
+            <TheHeader />
+            <TutorialZone />
+            <TheFooter />
+        </div>
 
 </template>
 
