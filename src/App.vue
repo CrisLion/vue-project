@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
+import TutorialCard from "@/components/TutorialCard.vue";
 </script>
 
 <template>
@@ -13,7 +14,10 @@ import TheWelcome from './components/TheWelcome.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <tutorial-card title="Tutorial 1" img-path="./assets/logo.svg" description="Full Description category"/>
+      <tutorial-card title="Tutorial 2" img-path="./assets/logo.svg" description="Full Description category"/>
+      <tutorial-card title="Tutorial 3" img-path="./assets/logo.svg" description="Full Description category"/>
+      <tutorial-card title="Tutorial 4" img-path="./assets/logo.svg" description="Full Description category"/>
   </main>
 </template>
 
