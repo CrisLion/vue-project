@@ -1,6 +1,7 @@
 <script setup>
 import TutorialZone from "@/components/Tutorial.vue";
 import TheHeader from "@/components/Header.vue";
+import TheFooter from "@/components/Footer.vue";
 
 
 </script>
@@ -10,6 +11,7 @@ import TheHeader from "@/components/Header.vue";
     <div>
         <TheHeader />
         <TutorialZone />
+        <TheFooter />
     </div>
 
 </template>
