@@ -2,6 +2,7 @@
 import TutorialZone from "@/components/Tutorial.vue";
 import TheHeader from "@/components/Header.vue";
 import TheFooter from "@/components/Footer.vue";
+import TheCategory from "@/components/Category.vue";
 
 
 </script>
@@ -10,7 +11,10 @@ import TheFooter from "@/components/Footer.vue";
 
     <div>
         <TheHeader />
-        <TutorialZone />
+        <div class="Sub-Container">
+            <TheCategory />
+            <TutorialZone />
+        </div>
         <TheFooter />
     </div>
 
@@ -43,4 +47,12 @@ header {
     flex-wrap: wrap;
   }
 }
+
+.Sub-Container{
+    display: grid;
+    grid-template: "a b"
+                    "a b";
+    grid-gap: 30px;
+}
+
 </style>
