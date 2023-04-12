@@ -8,6 +8,10 @@ import InputNumber from 'primevue/inputnumber';
 import Calendar from 'primevue/calendar';
 import Button from "primevue/button";
 import Panel from 'primevue/panel';
+import RadioButton from 'primevue/radiobutton';
+import Textarea from 'primevue/textarea';
+import Checkbox from 'primevue/checkbox';
+
 
 import './assets/main.css'
 
@@ -19,5 +23,8 @@ app.component('pv-input-number', InputNumber)
 app.component('pv-calendar', Calendar)
 app.component('pv-button', Button)
 app.component('pv-panel', Panel)
+app.component('pv-radio-button', RadioButton)
+app.component('pv-text-area', Textarea)
+app.component('pv-checkbox', Checkbox)
 
 app.mount('#app')
