@@ -6,6 +6,12 @@
             <FooterItem info="Los Manzanos 398" />
         </div>
     </footer>
+    <input type = "text" />
+    <div>
+        <pv-input-text />
+    </div>
+
+
 </template>
 
 <script>
