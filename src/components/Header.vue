@@ -1,7 +1,7 @@
 <template>
   <header>
       <img alt="3 bars" src="" width="125" height="125" />
-      <h1>Title</h1>
+      <h1>Library UPC</h1>
       <img alt="UserLogo" src="" width="125" height="125" />
   </header>
 </template>
@@ -16,8 +16,8 @@ export default {
 
 h1{
     text-align: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 img{
     float: left;
