@@ -5,11 +5,14 @@ import TheHeader from "@/components/Header.vue";
 import TheFooter from "@/components/Footer.vue";
 import TheCategory from "@/components/Category.vue";
 */
+
+import AddTutorial from "@/components/AddTutorial.vue";
+
 </script>
 
 <template>
     <div>
-
+        <AddTutorial/>
     </div>
     <!--
     <div>
