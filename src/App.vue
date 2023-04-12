@@ -7,12 +7,16 @@ import TheCategory from "@/components/Category.vue";
 */
 
 import AddTutorial from "@/components/AddTutorial.vue";
+import TheHeader from "@/components/Header.vue";
+import TheFooter from "@/components/Footer.vue";
 
 </script>
 
 <template>
     <div>
+        <TheHeader/>
         <AddTutorial/>
+        <TheFooter/>
     </div>
     <!--
     <div>
