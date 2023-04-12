@@ -1,19 +1,18 @@
 <script setup>
+/*
 import TutorialZone from "@/components/Tutorial.vue";
 import TheHeader from "@/components/Header.vue";
 import TheFooter from "@/components/Footer.vue";
+*/
+import Name from "@/components/Name.vue";
+import CategoryPanel from "./components/category-panel.vue";
 
 
 </script>
 
 <template>
-
-    <div>
-        <TheHeader />
-        <TutorialZone />
-        <TheFooter />
-    </div>
-
+    <Name />
+    <category-panel />
 </template>
 
 <style scoped>
