@@ -1,14 +1,17 @@
 <script setup>
+/*
 import TutorialZone from "@/components/Tutorial.vue";
 import TheHeader from "@/components/Header.vue";
 import TheFooter from "@/components/Footer.vue";
 import TheCategory from "@/components/Category.vue";
-
-
+*/
 </script>
 
 <template>
+    <div>
 
+    </div>
+    <!--
     <div>
         <TheHeader />
         <div class="Sub-Container">
@@ -17,6 +20,7 @@ import TheCategory from "@/components/Category.vue";
         </div>
         <TheFooter />
     </div>
+    //-->
 
 </template>
 
