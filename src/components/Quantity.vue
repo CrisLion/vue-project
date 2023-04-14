@@ -1,6 +1,6 @@
 <template>
   <div class="sub_container">
-      <Label class="label-style">Quantity :</Label>
+      <Label class="label-style">{{$t('quantity')}}</Label>
       <pv-input-number />
   </div>
 </template>

@@ -1,14 +1,14 @@
 <template>
   <div class="sub-container">
 
-      <Label>Description :</Label>
+      <Label>{{$t('description')}}</Label>
       <pv-text-area autoResize rows="5" cols="30"/>
 
   </div>
 
     <div class="sub-container">
         <pv-checkbox value="Cheese" class="my-class"/>
-        <label class="my-class">Digital version</label>
+        <label class="my-class">{{$t('digitalVersion')}}</label>
     </div>
 
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="sub_container">
-        <Label class="label-style">Name :</Label>
-        <pv-input-text placeholder="Product Name"/>
+        <Label class="label-style">{{$t('name')}}</Label>
+        <pv-input-text :placeholder="$t('productName')"/>
     </div>
 
 </template>

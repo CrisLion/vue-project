@@ -1,6 +1,6 @@
 <template>
   <div class="sub_container">
-      <Label class="label-style">Date Added: </Label>
+      <Label class="label-style">{{$t('dateAdded')}}</Label>
       <pv-calendar v-model="date"/>
   </div>
 </template>

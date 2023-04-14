@@ -1,6 +1,6 @@
 <template>
   <div>
-      <pv-panel header="Add Tutorial" toggleable>
+      <pv-panel :header="$t('addTutorial')" toggleable>
           <div>
               <TheCode/>
               <TheName/>
