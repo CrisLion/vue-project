@@ -1,7 +1,7 @@
 <template>
   <div class="sub_container">
-      <Label class="label-style">{{$t('dateAdded')}}</Label>
-      <pv-calendar v-model="date"/>
+      <Label :for="$t('dateAdded')" class="label-style">{{$t('dateAdded')}}</Label>
+      <pv-calendar :id="$t('dateAdded')" v-model="date"/>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="sub_container">
-      <Label class="label-style">{{$t('code')}}</Label>
-      <pv-input-mask mask="999-9999" placeholder="999-9999" />
+      <Label :for="$t('code')" class="label-style">{{$t('code')}}</Label>
+      <pv-input-mask :id="$t('code')" mask="999-9999" placeholder="999-9999" />
       <pv-button :label="$t('validate')" rounded class="my-class"/>
   </div>
 </template>

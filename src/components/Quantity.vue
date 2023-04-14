@@ -1,7 +1,7 @@
 <template>
   <div class="sub_container">
-      <Label class="label-style">{{$t('quantity')}}</Label>
-      <pv-input-number />
+      <Label :for="$t('quantity')" class="label-style">{{$t('quantity')}}</Label>
+      <pv-input-number :id="$t('quantity')" />
   </div>
 </template>
 
