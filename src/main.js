@@ -11,7 +11,7 @@ import Panel from 'primevue/panel';
 import RadioButton from 'primevue/radiobutton';
 import Textarea from 'primevue/textarea';
 import Checkbox from 'primevue/checkbox';
-
+import  i18n from '../src/locales/i18n'
 
 import './assets/main.css'
 
@@ -26,5 +26,6 @@ app.component('pv-panel', Panel)
 app.component('pv-radio-button', RadioButton)
 app.component('pv-text-area', Textarea)
 app.component('pv-checkbox', Checkbox)
+app.use(i18n);
 
 app.mount('#app')
