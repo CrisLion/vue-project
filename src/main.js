@@ -11,12 +11,12 @@ import Panel from 'primevue/panel';
 import RadioButton from 'primevue/radiobutton';
 import Textarea from 'primevue/textarea';
 import Checkbox from 'primevue/checkbox';
-
-
+import  i18n from '../src/locales/i18n'
 import './assets/main.css'
 
 const app = createApp(App);
 app.use(PrimeVue);
+app.use(i18n);
 app.component('pv-input-text', InputText)
 app.component('pv-input-mask', InputMask)
 app.component('pv-input-number', InputNumber)

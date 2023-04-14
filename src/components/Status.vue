@@ -1,17 +1,17 @@
 <template>
   <div class="sub_container">
-      <Label>Status :</Label>
+      <Label>{{$t('status')}}</Label>
       <div class="sub_sub_container">
           <pv-radio-button value="Active" />
-          <label>Active</label>
+          <label>{{$t('active')}}</label>
       </div>
       <div class="sub_sub_container">
           <pv-radio-button value="Suspended" />
-          <label>Suspended</label>
+          <label>{{$t('suspended')}}</label>
       </div>
       <div class="sub_sub_container">
           <pv-radio-button value="Inactive" />
-          <label>Inactive</label>
+          <label>{{$t('inactive')}}</label>
       </div>
   </div>
 </template>

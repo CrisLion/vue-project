@@ -1,7 +1,7 @@
 <template>
   <div class="sub-container">
-      <pv-button label="Save" rounded class="my-class"/>
-      <pv-button label="Cancel" rounded class="my-class"/>
+      <pv-button :label="$t('save')" rounded class="my-class"/>
+      <pv-button :label="$t('cancel')" rounded class="my-class"/>
   </div>
 </template>
 
