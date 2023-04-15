@@ -4,7 +4,7 @@ const i18n = createI18n({
   locale:'en',
   messages:{
     en:{
-      "username":'User',
+      "Product Name":'User',
       "clickme":'Click me!'
     },
     es:{
